@@ -2,7 +2,7 @@ cat("\014")
 rm(list = ls()) 
 gc()  
 
-invisible(source("Load GeneticKDResponse Data.R"))
+#invisible(source("Load GeneticKDResponse Data.R"))
 
 packages <- c("dplyr", "tibble", "table1", "stats", "MatrixModels", "binom", "glmglrt")
 invisible(lapply(packages, library, character.only = TRUE))
